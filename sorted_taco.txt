@@ -1,0 +1,4 @@
+
+alex:swirly
+loki:white
+thor:orange

@@ -1,0 +1,3 @@
+kits = %w(alex violet tpk)
+
+chuppers = File.open('chuppers.txt', 'w') {|f| kits.each{|kit| f.puts kit}}
