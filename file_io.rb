@@ -28,6 +28,8 @@ File.delete(doc)
 
 newfile = File.open('newfile.txt', 'w') {|f| f.puts File.read('id_tester.txt')}
 
+#Export local resutls to a file
+File.open("my_file_name.json", 'w'){|f| f.write meds.to_json} (where 'meds' is an instance variable)
 
 messages = File.open("start_messages.json", 'w'){|f| f.write start_messages.to_json}
 
